@@ -18,7 +18,7 @@ async function render(component, element) {
     })
   })
 }
-
+console.log("HELLO");
 async function init() {
   await render((
     <ReduxProvider store={reduxStore}>
@@ -39,4 +39,3 @@ async function init() {
 }
 
 init()
-
